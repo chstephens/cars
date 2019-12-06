@@ -27,7 +27,7 @@ do
 			read model
 	
 			# add car details to My_old_cars file
-			echo "$year":$make":$model" >> My_old_cars
+			echo "$year:$make:$model" >> My_old_cars
 			;;
 		2)	
       			sort -t'"' -k1 -n My_old_cars
